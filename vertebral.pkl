@@ -1,0 +1,10 @@
+amends "modulepath:/vertebral/v1/Vertebral.pkl"
+
+app = new StaticApp {}
+
+environments {
+  ["production"] {
+    domains { "harbor9.com.br" }
+    aliases { "www.harbor9.com.br" }
+  }
+}
